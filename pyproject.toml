@@ -1,0 +1,9 @@
+[project]
+name = "radar-yolo"
+version = "0.1.0"
+description = "Fine-tuning a YOLOv11 obb model to predict oriented bounding boxes given radar data"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "ultralytics>=8.3.68",
+]

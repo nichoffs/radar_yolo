@@ -1,0 +1,10 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: /mnt/sdc-wdc/radar_net_dataset # dataset root dir
+train: images
+val: images
+test: images
+
+# Classes (80 COCO classes)
+names:
+    0: vehicle
+    1: None

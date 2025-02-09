@@ -7,4 +7,3 @@ test: images
 # Classes (80 COCO classes)
 names:
     0: vehicle
-    1: None
